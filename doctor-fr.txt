@@ -1,0 +1,361 @@
+initial: Comment faites-vous. Veuillez me dire votre problème.
+final: adieu. Merci de me parler.
+quit: au revoir
+quit: quitter
+quit: bye
+quit: goodbye
+quit: quit
+pre: ne pas faire
+pre: je ne peux pas
+pre: ne le fera pas
+pre: se souvenir se souvenir
+pre: rêvé rêvé
+pre: rêves rêve
+pre: peut-être peut-être
+pre: comment quoi
+pre: quand quoi
+pre: certainement oui
+pre: ordinateur de la machine
+pre: ordinateur ordinateur
+pre: étaient
+pre: tu es tu es
+pre: je suis je suis
+pre: pareil
+post: je suis
+post: votre mon
+post: moi toi
+post: moi-même
+post: toi-même moi-même
+post: je vous
+post: toi je
+post: mon ton
+post: je suis toi
+synon: croyance ressentir pense croire souhait
+synon: famille mère maman père papa sœur frère épouse enfants enfant
+synon: le désir veut le besoin
+synon: triste malheureux déprimé malade
+synon: heureux exalté heureux mieux
+synon: ne peut pas ne peut pas
+synon: tout le monde tout le monde personne personne personne
+synon: be am is are was was
+key: xnone
+  decomp: *
+    reasmb: Je ne suis pas sûr de vous comprendre pleinement.
+    reasmb: Veuillez continuer.
+    reasmb: Qu'est-ce que cela vous suggère?
+    reasmb: Pensez-vous vraiment à discuter de telles choses?
+key: désolé
+  decomp: *
+    reasmb: Veuillez ne pas vous excuser.
+    reasmb: Les excuses ne sont pas nécessaires.
+    reasmb: Je vous ai dit que les excuses ne sont pas nécessaires.
+key: excuser
+  decomp: *
+    reasmb: je suis désolé
+key: rappelez-vous 5
+  decomp: * je me souviens *
+    reasmb: Pensez-vous souvent à (2)?
+    reasmb: Est-ce que penser à (2) vous fait penser à autre chose?
+    reasmb: De quoi vous souvenez-vous d'autre?
+    reasmb: Pourquoi vous rappelez-vous (2) tout à l'heure?
+    reasmb: Qu'est-ce qui vous rappelle dans la situation actuelle (2)?
+    reasmb: Quel est le lien entre moi et (2)?
+  decomp: * tu te souviens *
+    reasmb: Pensiez-vous que j'oublierais (2)?
+    reasmb: Pourquoi pensez-vous que je devrais me rappeler (2) maintenant?
+    reasmb: Et (2)?
+    reasmb: aller à quoi
+    reasmb: Vous avez mentionné (2)?
+key: si 3
+  decomp: * si *
+    reasmb: Pensez-vous que c'est probable que (2)?
+    reasmb: Souhaitez-vous cela (2)?
+    reasmb: Que savez-vous de (2)?
+    reasmb: Vraiment, si (2)?
+key: rêvé 4
+  decomp: * j'ai rêvé *
+    reasmb: Vraiment, (2)?
+    reasmb: Avez-vous déjà fantasmé (2) pendant que vous étiez éveillé?
+    reasmb: Avez-vous déjà rêvé (2) avant?
+    reasmb: goto dream
+key: rêve 3
+  decomp: *
+    reasmb: Que vous suggère ce rêve?
+    reasmb: Rêvez-vous souvent?
+    reasmb: Quelles personnes apparaissent dans vos rêves?
+    reasmb: Pensez-vous que les rêves ont quelque chose à voir avec vos problèmes?
+key: peut-être
+  decomp: *
+    reasmb: Vous ne semblez pas tout à fait certain.
+    reasmb: Pourquoi ce ton incertain?
+    reasmb: Ne pouvez-vous pas être plus positif?
+    reasmb: Vous n'êtes pas sûr?
+    reasmb: Vous ne savez pas?
+key: nom 15
+  decomp: *
+    reasmb: Je ne suis pas intéressé par les noms.
+    reasmb: Je vous l'ai déjà dit, je me fiche des noms - continuez s'il vous plaît.
+key: deutsch
+  decomp: *
+    reasmb: aller à xforeign
+    reasmb: Je vous l'ai déjà dit, je ne comprends pas l'allemand.
+key: francais
+  decomp: *
+    reasmb: aller à xforeign
+    reasmb: Je vous l'ai déjà dit, je ne comprends pas le français.
+key: italiano
+  decomp: *
+    reasmb: aller à xforeign
+    reasmb: Je vous l'ai déjà dit, je ne comprends pas l'italien.
+key: espanol
+  decomp: *
+    reasmb: aller à xforeign
+    reasmb: Je vous l'ai déjà dit, je ne comprends pas l'espagnol.
+key: xforeign
+  decomp: *
+    reasmb: Je ne parle que l'anglais.
+key: bonjour
+  decomp: *
+    reasmb: Comment faites-vous. Veuillez indiquer votre problème.
+    reasmb: Salut. Quel semble être votre problème?
+key: ordinateur 50
+  decomp: *
+    reasmb: Les ordinateurs vous inquiètent-ils?
+    reasmb: Pourquoi parlez-vous des ordinateurs?
+    reasmb: Que pensez-vous que les machines ont à voir avec votre problème?
+    reasmb: Ne pensez-vous pas que les ordinateurs peuvent aider les gens?
+    reasmb: Qu'est-ce qui vous inquiète à propos des machines?
+    reasmb: Que pensez-vous des machines?
+key: suis
+  decomp: * suis-je *
+    reasmb: Pensez-vous que vous êtes (2)?
+    reasmb: Voudriez-vous être (2)?
+    reasmb: Souhaitez-vous que je vous dise que vous êtes (2)?
+    reasmb: Que signifierait-il si vous étiez (2)?
+    reasmb: aller à quoi
+  decomp: *
+    reasmb: Pourquoi dites-vous «je suis»?
+    reasmb: Je ne comprends pas cela.
+key: sont
+  decomp: * êtes-vous *
+    reasmb: Pourquoi êtes-vous intéressé à savoir si je suis (2) ou non?
+    reasmb: Préféreriez-vous si je ne l'étais pas (2)?
+    reasmb: Peut-être que je suis (2) dans vos fantasmes.
+    reasmb: Pensez-vous parfois que je suis (2)?
+    reasmb: aller à quoi
+  decomp: * sont *
+    reasmb: Pensiez-vous qu'ils pourraient ne pas l'être (2)?
+    reasmb: Aimeriez-vous que ce ne soit pas le cas (2)?
+    reasmb: Et s'ils ne l'étaient pas (2)?
+    reasmb: Peut-être qu'ils le sont (2).
+key: votre
+  decomp: * votre *
+    reasmb: Pourquoi êtes-vous préoccupé par mon (2)?
+    reasmb: Et le vôtre (2)?
+    reasmb: Êtes-vous inquiet pour quelqu'un d'autre (2)?
+    reasmb: Vraiment, mon (2)?
+key: était 2
+  decomp: * étais-je *
+    reasmb: Et si vous étiez (2)?
+    reasmb: Pensez-vous que vous étiez (2)?
+    reasmb: Étiez-vous (2)?
+    reasmb: Que signifierait-il si vous étiez (2)?
+    reasmb: Que vous suggère (2)?
+    reasmb: aller à quoi
+  decomp: * j'étais *
+    reasmb: Vraiment?
+    reasmb: Pourquoi me dites-vous que vous étiez (2) maintenant?
+    reasmb: Peut-être que je sais déjà que vous étiez (2).
+  decomp: * étais-tu *
+    reasmb: Aimeriez-vous croire que j'étais (2)?
+    reasmb: Qu'est-ce qui suggère que j'étais (2)?
+    reasmb: Que pensez-vous?
+    reasmb: Peut-être étais-je (2).
+    reasmb: Et si j'avais été (2)?
+key: i
+  decomp: * i @desire *
+    reasmb: Qu'est-ce que cela signifierait pour vous si vous aviez (3)?
+    reasmb: Pourquoi voulez-vous (3)?
+    reasmb: Supposons que vous ayez (3) bientôt?
+    reasmb: Et si vous n'avez jamais eu (3)?
+    reasmb: Que signifierait obtenir (3) pour vous?
+    reasmb: Qu'est-ce que vouloir (3) a à voir avec cette discussion?
+  decomp: * je suis * @sad *
+    reasmb: Je suis désolé d'apprendre que vous êtes (3).
+    reasmb: Pensez-vous que venir ici vous aidera à ne pas être (3)?
+    reasmb: Je suis sûr que ce n'est pas agréable d'être (3).
+    reasmb: Pouvez-vous expliquer ce qui vous a fait (3)?
+  decomp: * je suis * @happy *
+    reasmb: Comment vous ai-je aidé à être (3)?
+    reasmb: Votre traitement vous a-t-il rendu (3)?
+    reasmb: Qu'est-ce qui vous fait (3) en ce moment?
+    reasmb: Pouvez-vous expliquer pourquoi vous êtes soudainement (3)?
+  decomp: * j'étais *
+    reasmb: goto was
+  decomp: * i @belief * i *
+    reasmb: Pensez-vous vraiment?
+    reasmb: Mais vous n'êtes pas sûr de vous (3).
+    reasmb: Avez-vous vraiment des doutes sur vous (3)?
+  decomp: * i * @belief * you *
+    reasmb: goto you
+  decomp: * je suis *
+    reasmb: Est-ce parce que vous êtes (2) que vous êtes venu vers moi?
+    reasmb: Depuis combien de temps êtes-vous (2)?
+    reasmb: Pensez-vous qu'il est normal d'être (2)?
+    reasmb: Aimez-vous être (2)?
+  decomp: * i @cannot *
+    reasmb: Comment pensez-vous que vous ne pouvez pas (3)?
+    reasmb: Avez-vous essayé?
+    reasmb: Peut-être pourriez-vous (3) maintenant.
+    reasmb: Voulez-vous vraiment pouvoir (3)?
+  decomp: * je ne le fais pas *
+    reasmb: N'est-ce pas vraiment (2)?
+    reasmb: Pourquoi pas vous (2)?
+    reasmb: Souhaitez-vous pouvoir (2)?
+    reasmb: Cela vous dérange-t-il?
+  decomp: * est-ce que je me sens *
+    reasmb: Dites-m'en plus sur ces sentiments.
+    reasmb: Ressentez-vous souvent (2)?
+    reasmb: Aimez-vous ressentir (2)?
+    reasmb: Qu'est-ce que le sentiment (2) vous rappelle?
+  decomp: * je * vous *
+    reasmb: Peut-être dans vos fantasmes nous (2) nous (2) les uns les autres.
+    reasmb: Souhaitez-vous (2) moi?
+    reasmb: Vous semblez avoir besoin de (2) moi.
+    reasmb: Est-ce que vous (2) quelqu'un d'autre?
+  decomp: *
+    reasmb: Vous dites (1)?
+    reasmb: Pouvez-vous élaborer là-dessus?
+    reasmb: Dites-vous (1) pour une raison particulière?
+    reasmb: C'est assez intéressant.
+key: vous
+  decomp: * vous me rappelez *
+    reasmb: aller de la même manière
+  decomp: * vous êtes *
+    reasmb: Qu'est-ce qui vous fait penser que je suis (2)?
+    reasmb: Cela vous plaît-il de croire que je suis (2)?
+    reasmb: Souhaitez-vous parfois être (2)?
+    reasmb: Peut-être aimeriez-vous être (2).
+  decomp: * toi * moi *
+    reasmb: Pourquoi pensez-vous que je (2) vous?
+    reasmb: Vous aimez penser que je (2) vous - n'est-ce pas?
+    reasmb: Qu'est-ce qui vous fait penser que je (2) vous?
+    reasmb: Vraiment, je (2) vous?
+    reasmb: Voulez-vous croire que je (2) vous?
+    reasmb: Supposons que je vous ai fait (2) - qu'est-ce que cela signifierait?
+    reasmb: Est-ce que quelqu'un d'autre croit que je (2) vous?
+  decomp: * vous *
+    reasmb: Nous parlions de vous - pas de moi.
+    reasmb: Oh, je (2)?
+    reasmb: Vous ne parlez pas vraiment de moi - n'est-ce pas?
+    reasmb: Quels sont vos sentiments maintenant?
+key: oui
+  decomp: *
+    reasmb: Vous semblez être assez positif.
+    reasmb: Vous êtes sûr.
+    reasmb: Je vois.
+    reasmb: Je comprends.
+key: non
+  decomp: *
+    reasmb: Dites-vous non simplement pour être négatif?
+    reasmb: Vous êtes un peu négatif.
+    reasmb: Pourquoi pas?
+    reasmb: Pourquoi «non»?
+key: mon 2
+  decomp: $ * my *
+    reasmb: Permet de discuter davantage pourquoi votre (2).
+    reasmb: Plus tôt, vous avez dit votre (2).
+    reasmb: Mais votre (2).
+    reasmb: Cela a-t-il quelque chose à voir avec le fait que votre (2)?
+  decomp: * ma * @family *
+    reasmb: Dites-m'en plus sur votre famille.
+    reasmb: Qui d'autre dans votre famille (4)?
+    reasmb: Votre (3)?
+    reasmb: Qu'est-ce qui vous vient à l'esprit lorsque vous pensez à votre (3)?
+  decomp: * mon *
+    reasmb: Votre (2)?
+    reasmb: Pourquoi dites-vous votre (2)?
+    reasmb: Cela suggère-t-il autre chose qui vous appartient?
+    reasmb: Est-il important que votre (2)?
+key: peut
+  decomp: * pouvez-vous *
+    reasmb: Vous croyez que je peux (2) n'est-ce pas?
+    reasmb: aller à quoi
+    reasmb: Vous voulez que je puisse (2).
+    reasmb: Peut-être aimeriez-vous pouvoir (2) vous-même.
+  decomp: * puis-je *
+    reasmb: Que vous puissiez ou non (2) dépend de vous plus que de moi.
+    reasmb: Voulez-vous pouvoir (2)?
+    reasmb: Peut-être que vous ne voulez pas (2).
+    reasmb: aller à quoi
+key: quoi
+  decomp: *
+    reasmb: Pourquoi demandez-vous?
+    reasmb: Cette question vous intéresse?
+    reasmb: Qu'est-ce que vous vouliez vraiment savoir?
+    reasmb: Ces questions vous préoccupent-elles beaucoup?
+    reasmb: Quelle réponse vous plairait le plus?
+    reasmb: Que pensez-vous?
+    reasmb: Qu'est-ce qui vous vient à l'esprit lorsque vous demandez cela?
+    reasmb: Avez-vous déjà posé de telles questions?
+    reasmb: Avez-vous demandé à quelqu'un d'autre?
+key: parce que
+  decomp: *
+    reasmb: Est-ce la vraie raison?
+    reasmb: Aucune autre raison ne vous vient à l'esprit?
+    reasmb: Cette raison semble-t-elle expliquer autre chose?
+    reasmb: Quelles autres raisons pourrait-il y avoir?
+key: pourquoi
+  decomp: * pourquoi pas toi *
+    reasmb: Croyez-vous que je ne le fais pas (2)?
+    reasmb: Peut-être que je le ferai (2) en temps voulu.
+    reasmb: Devriez-vous (2) vous-même?
+    reasmb: Vous voulez que je (2)?
+    reasmb: aller à quoi
+  decomp: * pourquoi je ne peux pas *
+    reasmb: Pensez-vous que vous devriez pouvoir (2)?
+    reasmb: Voulez-vous pouvoir (2)?
+    reasmb: Pensez-vous que cela vous aidera à (2)?
+    reasmb: Avez-vous une idée de pourquoi vous ne pouvez pas (2)?
+    reasmb: aller à quoi
+  decomp: *
+    reasmb: aller à quoi
+key: tout le monde 2
+  decomp: * @everyone *
+    reasmb: Vraiment, (2)?
+    reasmb: Sûrement pas (2).
+    reasmb: Pouvez-vous penser à quelqu'un en particulier?
+    reasmb: Qui, par exemple?
+    reasmb: Pensez-vous à une personne très spéciale?
+    reasmb: À qui, puis-je demander?
+    reasmb: Quelqu'un de spécial peut-être?
+    reasmb: Vous avez une personne en particulier en tête, n'est-ce pas?
+    reasmb: De qui pensez-vous que vous parlez?
+key: tout le monde 2
+  decomp: *
+    reasmb: aller à tout le monde
+key: personne 2
+  decomp: *
+    reasmb: aller à tout le monde
+key: noone 2
+  decomp: *
+    reasmb: aller à tout le monde
+key: toujours 1
+  decomp: *
+    reasmb: Pouvez-vous penser à un exemple spécifique?
+    reasmb: Quand?
+    reasmb: À quel incident pensez-vous?
+    reasmb: Vraiment, toujours?
+key: pareil 10
+  decomp: *
+    reasmb: De quelle manière?
+    reasmb: Quelle ressemblance voyez-vous?
+    reasmb: Que vous suggère cette similitude?
+    reasmb: Quelles autres connexions voyez-vous?
+    reasmb: Que pensez-vous que signifie cette ressemblance?
+    reasmb: Quelle est la connexion, pensez-vous?
+    reasmb: Pourrait-il vraiment y avoir un lien?
+    reasmb: Comment?
+key: comme 10
+ decomp: * @be * comme *
+    reasmb: aller de la même manière
