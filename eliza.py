@@ -1,6 +1,7 @@
 import logging
 import random
 import re
+import os
 from collections import namedtuple
 
 # Fix Python2/Python3 incompatibility
@@ -39,7 +40,8 @@ class Eliza:
     def load(self, path):
         key = None
         decomp = None
-        with open(path) as file:
+        folder = os.path.dirname(os.path.abspath(__file__))
+        with open(os.path.join(folder, path)) as file:
             for line in file:
                 if not line.strip():
                     continue
@@ -228,7 +230,7 @@ class Eliza:
 
 def main():
     eliza = Eliza()
-    eliza.load('doctor.txt')
+    eliza.load('./doctor.txt')
     eliza.run()
 
 if __name__ == '__main__':

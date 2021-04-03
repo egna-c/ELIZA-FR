@@ -299,7 +299,7 @@ key: quoi
     reasmb: Qu'est-ce qui vous vient à l'esprit lorsque vous demandez cela?
     reasmb: Avez-vous déjà posé de telles questions?
     reasmb: Avez-vous demandé à quelqu'un d'autre?
-key: parce que
+key: parce-que
   decomp: *
     reasmb: Est-ce la vraie raison?
     reasmb: Aucune autre raison ne vous vient à l'esprit?
@@ -320,7 +320,7 @@ key: pourquoi
     reasmb: aller à quoi
   decomp: *
     reasmb: aller à quoi
-key: tout le monde 2
+key: tous 2
   decomp: * @everyone *
     reasmb: Vraiment, (2)?
     reasmb: Sûrement pas (2).
@@ -331,7 +331,7 @@ key: tout le monde 2
     reasmb: Quelqu'un de spécial peut-être?
     reasmb: Vous avez une personne en particulier en tête, n'est-ce pas?
     reasmb: De qui pensez-vous que vous parlez?
-key: tout le monde 2
+key: tous 2
   decomp: *
     reasmb: aller à tout le monde
 key: personne 2
