@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 from eliza import Eliza
 
 eliza = Eliza()
